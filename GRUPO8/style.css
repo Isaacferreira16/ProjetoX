@@ -1,0 +1,198 @@
+body, html {
+  height: 100%;
+  background-image: linear-gradient(rgba(142, 255, 197, 0.5), rgba(0, 0, 0, 0.5)),url(https://media.discordapp.net/attachments/754485274607747112/1122595806684393634/ZFvC4AAAAASUVORK5CYII.png?width=1055&height=593);
+}
+.hero-image {
+  background-image: url(https://media.discordapp.net/attachments/1107733990670090292/1122583036563828958/aquario_arpias.png?width=993&height=558);
+  height: 95%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#menu {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+#links{
+    position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 25px;
+    text-decoration: none; /*Removemos o sublinhado*/
+    font-family: "Times New Roman", Times, serif;
+}
+#pesquisa {
+  width: 85%;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+#lista {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#lista li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+#lista li a:hover {
+  background-color: #e4e4e4;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-image: url(https://media.discordapp.net/attachments/1112718912275095562/1117805341476925510/image_2406-Marine-Wildlife.png?width=725&height=460), center,no-repeat,cover, relative,;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 50px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+#main {
+  transition: margin-right .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  padding-top: 100px;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: relative;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+section{
+  background-image: linear-gradient(rgba(118, 255, 80, 0.5), rgba(0, 0, 0, 0.5)),url(https://media.discordapp.net/attachments/754485274607747112/1122595881162657853/fqrjtML7oRgAAAABJRU5ErkJggg.png?width=1055&height=593);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 70px;
+}
+#galeria{
+  background-image: linear-gradient(rgba(56, 7, 36, 0.5), rgba(0, 0, 0, 0.5)),url(https://media.discordapp.net/attachments/754485274607747112/1122595934090571897/AzmVz6rn9yqAAAAAElFTkSuQmCC.png?width=1055&height=593);
+  display: grid;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+#galertia ul li{
+    background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+}
